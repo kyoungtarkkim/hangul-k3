@@ -34,12 +34,12 @@
 
 ## 사용 방법 (예를 통한 설명)
 1. hangul-k3.el 파일을 다운로드 합니다.
-2. ~/.emacs.d/hangul/hangul-k3.el 로 복사해 둡니다. ("~/"는 Home directory를 의미합니다.)
-3. ~/.emacs 또는 ~/.emacs.d/init.el 파일 내에 아래와 같이 디렉토리 로딩 경로를 미리 설정해 놓고, 기본 입력기를 설정합니다:
+2. ~/.emacs.d/hangul/hangul-k3.el 로 복사해 둡니다.
+3. ~/.emacs 또는 ~/.emacs.d/init.el 파일 내에 아래와 같이 로딩 경로를 미리 설정해 놓고, 기본 입력기를 설정합니다:
    ```elisp
    (add-to-list 'load-path "~/.emacs.d/hangul")
 
    (require 'hangul-k3)
    (setq default-input-method "korean-hangul-k3")
 
-4. Shift + Spacebar 또는 Control + Backslash 를 통해 Emacs 내부 입력기를 전환하여 경 세벌식을 사용합니다. 
+5. Shift + Spacebar 또는 Control + Backslash 를 통해 Emacs 내부 입력기를 전환하여 경 세벌식을 사용합니다. 
